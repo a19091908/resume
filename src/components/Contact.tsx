@@ -4,7 +4,7 @@ import resumedata from '../data.json'
 function Contact() {
     return (
       <div>
-        <span>{resumedata.profile.name}</span>・
+        <span>{resumedata.profile.location}</span>・
         <span><a href={'mailto:' + resumedata.profile.email}>syuanyingwu@vt.edu</a></span>・
         <span><a href={resumedata.profile.linkedin}>github.com/a19091908</a></span>・
         <span><a href={resumedata.profile.linkedin}>linkedin.com/syuan-ying-wu/</a></span>
