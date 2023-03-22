@@ -2,8 +2,88 @@
     "profile": {
         "name": "Syuan-Ying(Justin) Wu",
         "location": "Falls Church, VA",
-        "email": "syuanyingwu@vt.edu",
-        "github": "https://github.com/a19091908",
-        "linkedin": "https://www.linkedin.com/in/syuan-ying-wu/"
-    }
+        "email": {
+            "link": "syuanyingwu@vt.edu",
+            "text": "syuanyingwu@vt.edu"
+        },
+        "github": {
+            "link": "https://github.com/a19091908",
+            "text": "Github"
+        },
+        "linkedin": {
+            "link": "https://www.linkedin.com/in/syuan-ying-wu/",
+            "text": "Linkedin"
+        },
+        "summary" : "He is an M.S. student in Computer Science at Virginia Tech, with over five years of experience in the software industry. His skill set includes a strong command of Java, Python, React, Node.js, NoSQL, and SQL, among other languages and tools. Throughout his career, he has successfully developed a range of systems and programs. He is currently working as a Graduate Assistant at Virginia Tech, where he is developing a threat detection system for the Washington D.C. area's metro."
+    },
+
+    "experiences": [
+        {
+            "title": "Graduate Assistant",
+            "company": "Virginia Tech",
+            "location": "Falls Church, Virginia",
+            "start_date": "September 2022",
+            "end_date": "present",
+            "job_descriptions": [
+                "Developed a threat detection system(in React, Node.js, and Python) to aid in earlier detection for Washington Metropolitan Area Transit Authority.",
+                "Improved the performance of NoSQL queries by the inverted index using Apache Solr.",
+                "Improved query time stability in shared MongoDB by restricting the number of documents retrieved per request, reducing response time from 1 minute to less than 1 second during limited resource times."
+            ],
+            "skills": [
+                "ReactJS",
+                "NodeJs",
+                "Python",
+                "ExpressJS",
+                "Restful API",
+                "MongoDB",
+                "Apache Solr",
+                "Docker",
+                "Jenkins"
+            ]
+        },
+        {
+            "title": "Software Engineer",
+            "company": "DXC Technology",
+            "location": "Taipei City, Taiwan",
+            "start_date": "November 2019",
+            "end_date": "July 2022",
+            "job_descriptions": [
+                "Developed credit card systems (in Java) for Taiwan Cooperative Bank and Mega Bank.",
+                "Optimized SQL scripts for the systems and data conversion, reducing the average response time of selecting transaction logs by 60% and the conversion time by 75%.",
+                "Led a project to convert all the programs from Procedure-Oriented Programming to the MVC design pattern and Object-Oriented Programming.",
+                "Fixed system vulnerabilities, such as SQL Injection, XSS, Path Traversal, etc.",
+                "Designed and developed login and logout programs using LDAP.",
+                "Developed common functions of data conversion programs for multiple protocols."
+            ],
+            "skills": [
+                "Java",
+                "Javascript",
+                "HTML",
+                "CSS",
+                "SQL",
+                "JMeter",
+                "Shell",
+                "WebSphere"
+            ]
+        },
+        {
+            "title": "System Coordinator",
+            "company": "New Taipei City Government Tourism and Travel Department",
+            "location": "New Taipei City, Taiwan",
+            "start_date": "November 2017",
+            "end_date": "March 2019",
+            "job_descriptions": [
+                "Developed a Python program to automatically modify timestamps in GPS files, reducing the time from 4 hours to just 1 second.",
+                "Resolved a budget problem caused by Google Maps revision, saving $4,000 per year.",
+                "Wrote a bash script to help colleagues back up their files and prevent data loss.",
+                "Led a project to build a chatbot for a chatting app with cooperators.",
+                "Managed and redesigned the city's tourism websites, increasing visitor numbers by 10,000."
+            ],
+            "skills": [
+                "Python",
+                "Project Management",
+                "Shell"
+            ]
+        }
+    ]
 }

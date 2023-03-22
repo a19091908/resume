@@ -1,0 +1,12 @@
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+.summary {
+    text-align: left;
+}
+
+div {
+    margin: 0.5em;
+}

@@ -1,13 +1,15 @@
-import React from 'react';
 import Contact from '../components/Contact';
-import resumedata from '../data.json'
-function Header() {
-  return (
-    <section>
-        <h1>{resumedata.profile.name}</h1>
-        <Contact />
-    </section>
-  );
+import '../styles/Header.css'
+
+function Header(props: any) {
+    const profile = props.profile;
+    return (
+        <section>
+            <h1>{profile.name}</h1>
+            <Contact profile={profile} />
+            <div className='summary'>{profile.summary}</div>
+        </section>
+    );
 }
 
 export default Header;
