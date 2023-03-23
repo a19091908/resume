@@ -5,10 +5,14 @@ export const Experience = (props: any) => {
     return (
         <div>
             <JobInfo title={title} company={company} location={location} start_date={start_date} end_date={end_date} />
-            <ul className="jobs">
-                {job_descriptions.map((jd: string, i: number) => <li className="job_description" key={i}>{jd}</li>)}
-            </ul>
-            <div className="">
+            <div>
+                <ul className="jobs">
+                    {job_descriptions.map((jd: string, i: number) => <li className="job_description" key={i}>{jd}</li>)}
+                </ul>
+            </div>
+
+            <div className="job_skill">
+                <span>Skills:&nbsp;</span>
                 {skills.map((skill: string, i: number) => <span className="" key={i} >{(i !== 0) ? ", " : ""}{skill}</span>)}
             </div>
         </div>

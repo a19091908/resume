@@ -1,6 +1,7 @@
 body {
-  width: 1024px;
-  padding: 82px 44px;
+  /* width: 1024px; */
+  width: 60%;
+  padding: 44px 44px;
   margin: auto;
   font-size: 15.6px;
   font-family: Fira Sans, sans-serif;

@@ -1,12 +1,8 @@
-.title_and_date {
+.degreeAndMajorAndGraduationYear {
     display: flex;
     justify-content: space-between;
 }
 
-.company_and_location {
-    display: flex;
-}
-
-.job_title {
+.degreeAndMajor {
     font-weight: bold;
 }
