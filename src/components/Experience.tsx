@@ -11,9 +11,16 @@ export const Experience = (props: any) => {
                 </ul>
             </div>
 
-            <div className="job_skill">
+            <div>
                 <span>Skills:&nbsp;</span>
-                {skills.map((skill: string, i: number) => <span className="" key={i} >{(i !== 0) ? ", " : ""}{skill}</span>)}
+                {skills.map((skill: string, i: number) => {
+                    return (
+                        <span key={i} >
+                            <span>{(i !== 0) ? "・" : ""}</span>
+                            <span>{skill}</span>
+                        </span>
+                    )
+                })}
             </div>
         </div>
     )

@@ -45,3 +45,15 @@ h1 {
   font-family: Letter Gothic Std,monospace;
   font-size: 3em;
 }
+
+.white_mode {
+  color:black;
+  background-color: white;
+  transition-duration: 1s;
+}
+
+.dark_mode {
+  color:white;
+  background-color: black;
+  transition-duration: 1s;
+}

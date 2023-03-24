@@ -1,0 +1,11 @@
+.tool_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+
+    position:fixed;
+    bottom:20%;
+    right: 0;
+    
+}

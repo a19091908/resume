@@ -1,0 +1,11 @@
+.link_black_mode {
+    color: white;
+    background-color: black;
+    transition-duration: 1s;
+}
+
+.link_white_mode {
+    color: black;
+    background-color: white;
+    transition-duration: 1s;
+}
