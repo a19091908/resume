@@ -13,9 +13,9 @@ export const Tools = (props: any) => {
 
     let modeIconSrc = "";
     if (isBlackMode) {
-        modeIconSrc = (isModeHover) ? sMoonSrc : rMoonSrc;
-    }else {
         modeIconSrc = (isModeHover) ? sSunSrc : rSunSrc;
+    }else {
+        modeIconSrc = (isModeHover) ? sMoonSrc : rMoonSrc;
     }
 
     return (

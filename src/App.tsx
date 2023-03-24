@@ -21,6 +21,14 @@ function App() {
 
   const appStyle = isBlackMode ? "App dark_mode" : "App white_mode";
 
+  if (isBlackMode) {
+    document.body.style.transitionDuration = "1s";
+    document.body.style.backgroundColor = "black";
+  }else {
+    document.body.style.transitionDuration = "1s";
+    document.body.style.backgroundColor = "white";
+  }
+
   return (
     <div className={appStyle}>
       <Header profile={resumeData.profile} isBlackMode={isBlackMode}/>
