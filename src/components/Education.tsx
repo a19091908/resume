@@ -8,7 +8,7 @@ export const Education = (props: any) => {
     return (
         <div>
             <div className="degreeAndMajorAndGraduationYear" >
-                <span className="degreeAndMajor">{degreeAndMajor}{gpaDisplay}</span>
+                <span className="degreeAndMajor">{degreeAndMajor} {gpaDisplay}</span>
                 <span>{graduation_year}</span>
             </div>
             <div>

@@ -5,7 +5,13 @@
     gap: 1em;
 
     position:fixed;
-    bottom:10%;
-    right: 0;
+    bottom:24px;
+    right: 24px;
     
+}
+
+.tool_div img {
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
 }

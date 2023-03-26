@@ -1,12 +1,16 @@
-.title_and_date {
+.title_and_location {
     display: flex;
     justify-content: space-between;
 }
 
-.company_and_location {
-    display: flex;
-}
-
 .job_title {
     font-weight: bold;
+}
+
+.skills_and_date {
+    display: flex;
+    justify-content: space-between;
+
+    font-size: 13.6px;
+    color: gray;
 }
