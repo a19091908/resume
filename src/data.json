@@ -14,7 +14,7 @@
             "link": "https://www.linkedin.com/in/syuan-ying-wu/",
             "text": "Linkedin"
         },
-        "summary" : "An Master student in Computer Science at Virginia Tech, with over five years of experience in the software industry. the skill set includes a strong command of Java, Python, React, Node.js, NoSQL, and SQL, among other languages and tools. Throughout my career, I has successfully developed a range of systems and programs. I am currently working as a Graduate Assistant at Virginia Tech, where I am developing a threat detection system for the Washington D.C. area's metro.",
+        "summary" : "Software Engineer with 5 years of full-stack development experience specializing in Java and React. Proficient in building scalable systems and optimizing system performance.",
         "educations": [
             {
                 "degree": "Master of Engineering",
@@ -22,9 +22,10 @@
                 "school_name": "Virginia Tech",
                 "location": "Falls Church, Virginia",
                 "graduation_year": "Expected December 2023",
-                "gpa": "4.0",
+                "gpa": "3.95",
                 "main_courses": [
                     "Software Development",
+                    "Mobile Application",
                     "Information Security",
                     "Data Analytics",
                     "Artifical Inteligence"
@@ -49,15 +50,38 @@
 
     "experiences": [
         {
+            "title": "Software Engineer Intern",
+            "company": "Ripple",
+            "location": "Falls Church, Virginia",
+            "start_date": "May 2023",
+            "end_date": "August 2023",
+            "job_descriptions": [
+                "Developed Streaming Social Media using React and Node.js to enable users to share watching videos with others.",
+                "Designed system architecture and implemented it using Amazon Web Services to achieve a scalable and efficient system.",
+                "Built a video upload feature via AWS Lambda, Amazon S3, RDS, Elastic Transcoder, and CloudFront."
+            ],
+            "skills": [
+                "Amazon Web Services",
+                "React",
+                "Node.js",
+                "Restful API"
+            ]
+        },
+        {
             "title": "Graduate Assistant",
             "company": "Virginia Tech",
             "location": "Falls Church, Virginia",
             "start_date": "September 2022",
-            "end_date": "Present",
+            "end_date": "May 2023",
+            "link": "https://dl.acm.org/doi/pdf/10.1145/3539618.3591807",
             "job_descriptions": [
-                "Developed a threat detection system(in React, Node.js, and Python) to aid in earlier detection for Washington Metropolitan Area Transit Authority.",
-                "Improved the performance of NoSQL queries by the inverted index using Apache Solr.",
-                "Improved query time stability in shared MongoDB by restricting the number of documents retrieved per request, reducing response time from 1 minute to less than 1 second during limited resource times."
+                "Washington Metropolitan Area Metro Threat Detection System (SIGIR 2023 accepted paper)",
+                "Developed a threat detection system using React, Node.js, Express.js, and Python to aid in earlier detection.",
+                "Optimized the performance of NoSQL queries by the inverted index using Apache Solr from O(n) to O(logn).",
+                "Improved query time stability in shared MongoDB via Pagination, reducing response time from 1 minute to less than 1 second.",
+                "Designed and implemented a health-check module using Shell and Crontab to ensure system availability.",
+                "Integrated Twitter API, News API, and Machine Learning models into the system.",
+                "Containerlized all the threat detection related applications using Docker."
             ],
             "skills": [
                 "React",
@@ -78,12 +102,13 @@
             "start_date": "November 2019",
             "end_date": "July 2022",
             "job_descriptions": [
-                "Developed credit card systems (in Java) for Taiwan Cooperative Bank and Mega Bank.",
-                "Optimized SQL scripts for the systems and data conversion, reducing the average response time of selecting transaction logs by 60% and the conversion time by 75%.",
-                "Led a project to convert all the programs from Procedure-Oriented Programming to the MVC design pattern and Object-Oriented Programming.",
-                "Fixed system vulnerabilities, such as SQL Injection, XSS, Path Traversal, etc.",
-                "Designed and developed login and logout programs using LDAP.",
-                "Developed common functions of data conversion programs for multiple protocols."
+                "Credit Card System",
+                "Developed credit card systems using Java, Javascript, CSS, HTML, and DB2 for Taiwan Cooperative Bank and Mega Bank.",
+                "Optimized performance of SQL for selecting transaction logs and data conversion, reducing the average response time of",
+                "selecting time by 60% and the conversion time by 75%.",
+                "Led a team to fix system vulnerabilities, such as SQL Injection, XSS, and Path Traversal.",
+                "Designed and developed login and logout features using LDAP.",
+                "Performed Stress, Load, and Performance Testing using JMeter."
             ],
             "skills": [
                 "Java",
@@ -97,17 +122,16 @@
             ]
         },
         {
-            "title": "System Coordinator",
+            "title": "System Analyst",
             "company": "New Taipei City Government",
             "location": "New Taipei City, Taiwan",
             "start_date": "November 2017",
             "end_date": "March 2019",
             "job_descriptions": [
+                "Led a project using Google Dialogflow to build a chatbot for a chatting app with cooperators.",
                 "Developed a Python program to automatically modify timestamps in GPS files, reducing the time from 4 hours to just 1 second.",
-                "Resolved a budget problem caused by Google Maps revision, saving $4,000 per year.",
-                "Wrote a bash script to help colleagues back up their files and prevent data loss.",
-                "Led a project to build a chatbot for a chatting app with cooperators.",
-                "Managed and redesigned the city's tourism websites, increasing visitor numbers by 10,000."
+                "Resolved a budget problem caused by Google Maps API revision, saving $4,000 per year.",
+                "Created a Shell script to back up files and prevent potential data loss."
             ],
             "skills": [
                 "Python",
@@ -119,9 +143,29 @@
 
     "personal_projects": [
         {
-            "title": "URL Shortening Service",
+            "title": "Online Bookstore",
             "location": "",
             "link": null,
+            "start_date": "January 2023",
+            "end_date": "May 2023",
+            "job_descriptions": [
+                "Developed bookstore website using Vue, JavaScript, Java, and MySQL for online shopping.",
+                "Built each service as Restful API using Jersey."
+            ],
+            "skills": [
+                "Java",
+                "Vue",
+                "JavaScript",
+                "CSS",
+                "MySQL",
+                "Jersey",
+                "Restful API"
+            ]
+        },
+        {
+            "title": "URL Shortening Service",
+            "location": "",
+            "link": "https://github.com/a19091908/shortenURL",
             "start_date": "May 2022",
             "end_date": "",
             "job_descriptions": [

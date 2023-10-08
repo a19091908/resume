@@ -1,6 +1,11 @@
 .degreeAndMajorAndGraduationYear {
     display: flex;
     justify-content: space-between;
+
+    @media (max-width: 576px) {
+        flex-direction: column;
+        gap: 5px;
+    }
 }
 
 .degreeAndMajor {

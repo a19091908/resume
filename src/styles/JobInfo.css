@@ -1,6 +1,10 @@
 .title_and_location {
     display: flex;
     justify-content: space-between;
+
+    @media (max-width: 576px) {
+        flex-direction: column;
+    }
 }
 
 .job_title {
@@ -13,4 +17,9 @@
 
     font-size: 13.6px;
     color: gray;
+
+    @media (max-width: 576px) {
+        flex-direction: column;
+        gap: 5px;
+    }
 }
