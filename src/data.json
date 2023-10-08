@@ -103,7 +103,7 @@
             "end_date": "July 2022",
             "job_descriptions": [
                 "Credit Card System",
-                "Developed credit card systems using Java, Javascript, CSS, HTML, and DB2 for Taiwan Cooperative Bank and Mega Bank.",
+                "Developed credit card systems using Java, Javascript, CSS, HTML, and DB2 for the banks in Taiwan.",
                 "Optimized performance of SQL for selecting transaction logs and data conversion, reducing the average response time of",
                 "selecting time by 60% and the conversion time by 75%.",
                 "Led a team to fix system vulnerabilities, such as SQL Injection, XSS, and Path Traversal.",
