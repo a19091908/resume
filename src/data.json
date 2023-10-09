@@ -81,7 +81,7 @@
                 "Improved query time stability in shared MongoDB via Pagination, reducing response time from 1 minute to less than 1 second.",
                 "Designed and implemented a health-check module using Shell and Crontab to ensure system availability.",
                 "Integrated Twitter API, News API, and Machine Learning models into the system.",
-                "Containerlized all the threat detection related applications using Docker."
+                "Containerized all the threat detection related applications using Docker."
             ],
             "skills": [
                 "React",
