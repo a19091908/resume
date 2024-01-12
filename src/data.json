@@ -3,8 +3,8 @@
         "name": "Syuan-Ying(Justin) Wu",
         "location": "Falls Church, VA",
         "email": {
-            "link": "syuanyingwu@vt.edu",
-            "text": "syuanyingwu@vt.edu"
+            "link": "syuanyingwu@gmail.com",
+            "text": "syuanyingwu@gmail.com"
         },
         "github": {
             "link": "https://github.com/a19091908",
@@ -14,15 +14,15 @@
             "link": "https://www.linkedin.com/in/syuan-ying-wu/",
             "text": "Linkedin"
         },
-        "summary" : "Software Engineer with 5 years of full-stack development experience specializing in Java and React. Proficient in building scalable systems and optimizing system performance.",
+        "summary" : "Software Engineer with 3+ years of industry experience, specializing in Java and React. Contributed to a SIGIR-accepted demo paper on Information Retrieval. Engaged in the DC Metro Threat Detection System project as a proactive software engineer.",
         "educations": [
             {
                 "degree": "Master of Engineering",
                 "major": "Computer Science",
                 "school_name": "Virginia Tech",
                 "location": "Falls Church, Virginia",
-                "graduation_year": "Expected December 2023",
-                "gpa": "3.95",
+                "graduation_year": "December 2023",
+                "gpa": "3.97",
                 "main_courses": [
                     "Software Development",
                     "Mobile Application",
@@ -35,7 +35,7 @@
                 "degree": "Bachelor of Science",
                 "major": "Applied Mathematics",
                 "school_name": "Fu Jen Catholic University",
-                "location": "New Taipei City, Taiwan",
+                "location": "New Taipei, Taiwan",
                 "graduation_year": "June 2017",
                 "gpa": "3.81",
                 "main_courses": [
@@ -54,34 +54,41 @@
             "company": "Ripple",
             "location": "Falls Church, Virginia",
             "start_date": "May 2023",
-            "end_date": "August 2023",
+            "end_date": "Present",
             "job_descriptions": [
-                "Developed Streaming Social Media using React and Node.js to enable users to share watching videos with others.",
-                "Designed system architecture and implemented it using Amazon Web Services to achieve a scalable and efficient system.",
-                "Built a video upload feature via AWS Lambda, Amazon S3, RDS, Elastic Transcoder, and CloudFront."
+                "Designed and implemented Social Media using Amazon Web Services to enable users to share videos with others",
+                "Developed a video feed service using Java, Spring Boot, Hibernate, Redis, Apache Kafka, and EC2",
+                "Built a video upload feature using Node.js, React, and Redux via AWS Lambda, S3, RDS, Elastic Transcoder, and CloudFront",
+                "Reduced deployment time of the services through the implementation of CI/CD with Amplify, ECR, Docker, Git, and Maven"
             ],
             "skills": [
                 "Amazon Web Services",
+                "Java",
+                "Spring Boot",
+                "Hibernate",
                 "React",
+                "Redux",
                 "Node.js",
-                "Restful API"
+                "Restful API",
+                "Redis",
+                "Kafka"
             ]
         },
         {
-            "title": "Graduate Assistant",
+            "title": "Software Engineer(Graduate Assistant)",
             "company": "Virginia Tech",
             "location": "Falls Church, Virginia",
             "start_date": "September 2022",
             "end_date": "May 2023",
             "link": "https://dl.acm.org/doi/pdf/10.1145/3539618.3591807",
             "job_descriptions": [
-                "Washington Metropolitan Area Metro Threat Detection System (SIGIR 2023 accepted paper)",
-                "Developed a threat detection system using React, Node.js, Express.js, and Python to aid in earlier detection.",
-                "Optimized the performance of NoSQL queries by the inverted index using Apache Solr from O(n) to O(logn).",
-                "Improved query time stability in shared MongoDB via Pagination, reducing response time from 1 minute to less than 1 second.",
-                "Designed and implemented a health-check module using Shell and Crontab to ensure system availability.",
-                "Integrated Twitter API, News API, and Machine Learning models into the system.",
-                "Containerized all the threat detection related applications using Docker."
+                "Published paper on Washington Metropolitan Area Metro Threat Detection System, accepted at the conference SIGIR 2023",
+                "Developed the threat detection system using Node.js, Express.js, Python, and React to aid in earlier detection",
+                "Optimized NoSQL queries by the inverted index using Apache Solr to decrease time complexity from O(n) to O(logn)",
+                "Improved query time stability in shared MongoDB via Pagination, reducing response time from 1 minute to less than 1 second",
+                "Designed and implemented a health-check module using Shell and Crontab to ensure system availability",
+                "Integrated Twitter API, News API, and Machine Learning models into the system",
+                "Built the CI/CD pipeline utilizing Docker, Git, Maven, and Jenkins, saving 50% of the deployment time"
             ],
             "skills": [
                 "React",
@@ -98,17 +105,17 @@
         {
             "title": "Software Engineer",
             "company": "DXC Technology",
-            "location": "Taipei City, Taiwan",
+            "location": "Taipei, Taiwan",
             "start_date": "November 2019",
             "end_date": "July 2022",
             "job_descriptions": [
-                "Credit Card System",
-                "Developed credit card systems using Java, Javascript, CSS, HTML, and DB2 for the banks in Taiwan.",
+                "Developed credit card systems using Java, Javascript, CSS, HTML, and DB2 for the banks in Taiwan",
                 "Optimized performance of SQL for selecting transaction logs and data conversion, reducing the average response time of",
-                "selecting time by 60% and the conversion time by 75%.",
-                "Led a team to fix system vulnerabilities, such as SQL Injection, XSS, and Path Traversal.",
-                "Designed and developed login and logout features using LDAP.",
-                "Performed Stress, Load, and Performance Testing using JMeter."
+                "selecting time by 60% and the conversion time by 75%",
+                "Led a team to fix system vulnerabilities, such as SQL Injection, XSS, and Path Traversal",
+                "Designed and developed login and logout features using LDAP",
+                "Developed CI/CD pipeline with Azure DevOps for efficient app deployment to production",
+                "Performed Stress, Load, and Performance Testing with JMeter to validate system robustness and optimize performance"
             ],
             "skills": [
                 "Java",
@@ -118,13 +125,14 @@
                 "SQL",
                 "JMeter",
                 "Shell",
-                "WebSphere"
+                "WebSphere",
+                "Azure DevOps"
             ]
         },
         {
             "title": "System Analyst",
             "company": "New Taipei City Government",
-            "location": "New Taipei City, Taiwan",
+            "location": "New Taipei, Taiwan",
             "start_date": "November 2017",
             "end_date": "March 2019",
             "job_descriptions": [
@@ -169,7 +177,8 @@
             "start_date": "May 2022",
             "end_date": "",
             "job_descriptions": [
-                "Developed a URL Shortening Service (in Java and Spring Boot) for shortening a given URL to a short and memorable one."
+                "Developed a URL Shortening Service using Java and React to shorten a given URL to a short and memorable one",
+                "Used a Microservice architecture, with Spring Boot to develop RESTful services"
             ],
             "skills": [
                 "Java",
